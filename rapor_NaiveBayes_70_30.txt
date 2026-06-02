@@ -1,0 +1,24 @@
+NaiveBayes | 70_30
+Accuracy:0.6756  F1:0.6632  Precision:0.7837  Recall:0.6756
+
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.98      0.58      0.73      1500
+                       Bot       0.56      1.00      0.72       590
+                      DDoS       0.98      0.80      0.88      1500
+             DoS GoldenEye       0.40      0.94      0.56      1500
+                  DoS Hulk       0.81      0.27      0.40      1500
+          DoS Slowhttptest       0.88      0.12      0.21      1500
+             DoS slowloris       0.34      0.29      0.31      1500
+               FTP-Patator       1.00      1.00      1.00      1500
+                Heartbleed       1.00      0.67      0.80         3
+              Infiltration       0.18      0.91      0.30        11
+                  PortScan       1.00      0.99      0.99      1500
+               SSH-Patator       0.99      1.00      1.00      1500
+  Web Attack � Brute Force       0.36      0.87      0.51       452
+Web Attack � Sql Injection       0.01      1.00      0.03         6
+          Web Attack � XSS       0.00      0.00      0.00       196
+
+                  accuracy                           0.68     14758
+                 macro avg       0.63      0.69      0.56     14758
+              weighted avg       0.78      0.68      0.66     14758

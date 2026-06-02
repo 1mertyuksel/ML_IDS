@@ -1,0 +1,24 @@
+XGBoost | 70_30
+Accuracy:0.9806  F1:0.978  Precision:0.9777  Recall:0.9806
+
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.98      0.98      0.98      1500
+                       Bot       0.98      0.99      0.99       590
+                      DDoS       1.00      1.00      1.00      1500
+             DoS GoldenEye       1.00      1.00      1.00      1500
+                  DoS Hulk       0.99      1.00      0.99      1500
+          DoS Slowhttptest       1.00      0.99      0.99      1500
+             DoS slowloris       1.00      1.00      1.00      1500
+               FTP-Patator       1.00      1.00      1.00      1500
+                Heartbleed       1.00      1.00      1.00         3
+              Infiltration       1.00      1.00      1.00        11
+                  PortScan       1.00      1.00      1.00      1500
+               SSH-Patator       1.00      1.00      1.00      1500
+  Web Attack � Brute Force       0.70      0.90      0.78       452
+Web Attack � Sql Injection       0.67      0.67      0.67         6
+          Web Attack � XSS       0.36      0.13      0.19       196
+
+                  accuracy                           0.98     14758
+                 macro avg       0.91      0.91      0.91     14758
+              weighted avg       0.98      0.98      0.98     14758

@@ -1,0 +1,24 @@
+RandomForest | 80_20
+Accuracy:0.9789  F1:0.9789  Precision:0.979  Recall:0.9789
+
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.98      0.98      0.98      1000
+                       Bot       0.97      0.99      0.98       393
+                      DDoS       1.00      1.00      1.00      1000
+             DoS GoldenEye       1.00      0.99      1.00      1000
+                  DoS Hulk       0.99      1.00      0.99      1000
+          DoS Slowhttptest       1.00      0.99      0.99      1000
+             DoS slowloris       0.99      1.00      0.99      1000
+               FTP-Patator       1.00      1.00      1.00      1000
+                Heartbleed       1.00      1.00      1.00         2
+              Infiltration       1.00      0.71      0.83         7
+                  PortScan       1.00      1.00      1.00      1000
+               SSH-Patator       1.00      1.00      1.00      1000
+  Web Attack � Brute Force       0.74      0.73      0.74       302
+Web Attack � Sql Injection       0.50      0.50      0.50         4
+          Web Attack � XSS       0.41      0.43      0.42       131
+
+                  accuracy                           0.98      9839
+                 macro avg       0.91      0.89      0.90      9839
+              weighted avg       0.98      0.98      0.98      9839

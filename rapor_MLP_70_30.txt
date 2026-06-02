@@ -1,0 +1,24 @@
+MLP | 70_30
+Accuracy:0.9656  F1:0.9609  Precision:0.9665  Recall:0.9656
+
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.98      0.91      0.94      1500
+                       Bot       0.96      1.00      0.98       590
+                      DDoS       0.99      1.00      1.00      1500
+             DoS GoldenEye       0.99      0.99      0.99      1500
+                  DoS Hulk       0.97      0.98      0.97      1500
+          DoS Slowhttptest       0.99      0.99      0.99      1500
+             DoS slowloris       1.00      0.99      0.99      1500
+               FTP-Patator       1.00      1.00      1.00      1500
+                Heartbleed       1.00      0.67      0.80         3
+              Infiltration       0.70      0.64      0.67        11
+                  PortScan       0.98      0.99      0.98      1500
+               SSH-Patator       0.94      0.99      0.96      1500
+  Web Attack � Brute Force       0.66      0.87      0.75       452
+Web Attack � Sql Injection       0.75      0.50      0.60         6
+          Web Attack � XSS       0.78      0.04      0.07       196
+
+                  accuracy                           0.97     14758
+                 macro avg       0.91      0.84      0.85     14758
+              weighted avg       0.97      0.97      0.96     14758

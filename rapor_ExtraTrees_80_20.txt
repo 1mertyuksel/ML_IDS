@@ -1,0 +1,24 @@
+ExtraTrees | 80_20
+Accuracy:0.978  F1:0.9781  Precision:0.9783  Recall:0.978
+
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.98      0.98      0.98      1000
+                       Bot       0.98      0.99      0.98       393
+                      DDoS       1.00      1.00      1.00      1000
+             DoS GoldenEye       1.00      0.99      1.00      1000
+                  DoS Hulk       0.99      1.00      0.99      1000
+          DoS Slowhttptest       1.00      0.99      0.99      1000
+             DoS slowloris       0.99      0.99      0.99      1000
+               FTP-Patator       1.00      1.00      1.00      1000
+                Heartbleed       1.00      0.50      0.67         2
+              Infiltration       1.00      0.71      0.83         7
+                  PortScan       1.00      1.00      1.00      1000
+               SSH-Patator       1.00      1.00      1.00      1000
+  Web Attack � Brute Force       0.74      0.72      0.73       302
+Web Attack � Sql Injection       0.50      0.50      0.50         4
+          Web Attack � XSS       0.41      0.44      0.42       131
+
+                  accuracy                           0.98      9839
+                 macro avg       0.91      0.85      0.87      9839
+              weighted avg       0.98      0.98      0.98      9839

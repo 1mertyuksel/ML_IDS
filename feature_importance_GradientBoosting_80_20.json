@@ -1,0 +1,22 @@
+{
+  "Destination Port": 0.34714022172591663,
+  "Packet Length Mean": 0.08278433378170197,
+  "Min Packet Length": 0.06541334630970554,
+  "Flow IAT Mean": 0.0640821145625237,
+  "Bwd Packet Length Mean": 0.05647065541065072,
+  "Flow Duration": 0.04724446810556751,
+  "Active Mean": 0.04545541655469653,
+  "Flow IAT Std": 0.04312006295922486,
+  "Fwd Packet Length Max": 0.0387891475912104,
+  "Fwd Packet Length Mean": 0.03522052142149988,
+  "Total Backward Packets": 0.033363880805521155,
+  "Flow Bytes/s": 0.030602129575032975,
+  "Packet Length Variance": 0.03023108732739148,
+  "Total Fwd Packets": 0.026334927371876815,
+  "Flow Packets/s": 0.025460856883845397,
+  "Fwd IAT Mean": 0.01532594137979195,
+  "ACK Flag Count": 0.006100441019399904,
+  "SYN Flag Count": 0.004266603145462703,
+  "Fwd PSH Flags": 0.0025938440689796407,
+  "RST Flag Count": 0.0
+}

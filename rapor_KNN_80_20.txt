@@ -1,0 +1,24 @@
+KNN | 80_20
+Accuracy:0.9686  F1:0.9678  Precision:0.9677  Recall:0.9686
+
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.98      0.92      0.95      1000
+                       Bot       0.95      1.00      0.98       393
+                      DDoS       1.00      1.00      1.00      1000
+             DoS GoldenEye       0.99      0.99      0.99      1000
+                  DoS Hulk       0.98      0.99      0.98      1000
+          DoS Slowhttptest       0.99      0.99      0.99      1000
+             DoS slowloris       0.99      0.99      0.99      1000
+               FTP-Patator       0.99      0.99      0.99      1000
+                Heartbleed       1.00      0.50      0.67         2
+              Infiltration       0.71      0.71      0.71         7
+                  PortScan       0.98      0.99      0.98      1000
+               SSH-Patator       0.99      0.99      0.99      1000
+  Web Attack � Brute Force       0.69      0.76      0.72       302
+Web Attack � Sql Injection       0.67      0.50      0.57         4
+          Web Attack � XSS       0.40      0.30      0.34       131
+
+                  accuracy                           0.97      9839
+                 macro avg       0.89      0.84      0.86      9839
+              weighted avg       0.97      0.97      0.97      9839

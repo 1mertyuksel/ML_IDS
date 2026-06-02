@@ -1,0 +1,24 @@
+SVM | 70_30
+Accuracy:0.8801  F1:0.87  Precision:0.8756  Recall:0.8801
+
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.81      0.75      0.78      1500
+                       Bot       0.92      0.40      0.56       590
+                      DDoS       0.90      0.99      0.94      1500
+             DoS GoldenEye       0.93      0.99      0.96      1500
+                  DoS Hulk       0.97      0.84      0.90      1500
+          DoS Slowhttptest       0.93      0.89      0.91      1500
+             DoS slowloris       0.94      0.80      0.87      1500
+               FTP-Patator       0.90      1.00      0.95      1500
+                Heartbleed       1.00      1.00      1.00         3
+              Infiltration       0.43      0.55      0.48        11
+                  PortScan       0.87      1.00      0.93      1500
+               SSH-Patator       0.81      1.00      0.90      1500
+  Web Attack � Brute Force       0.59      0.80      0.68       452
+Web Attack � Sql Injection       0.00      0.00      0.00         6
+          Web Attack � XSS       0.00      0.00      0.00       196
+
+                  accuracy                           0.88     14758
+                 macro avg       0.73      0.73      0.72     14758
+              weighted avg       0.88      0.88      0.87     14758
