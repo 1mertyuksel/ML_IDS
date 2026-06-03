@@ -1,0 +1,15 @@
+{
+  "Flow IAT Mean": 0.12457658592879628,
+  "Fwd Packet Length Mean": 0.10784119228730239,
+  "Flow Duration": 0.10392964389373212,
+  "Flow Packets/s": 0.10329340102796822,
+  "Avg Fwd Segment Size": 0.10300153780107492,
+  "Flow Bytes/s": 0.10265015411522058,
+  "Bwd Packet Length Mean": 0.10191253086616682,
+  "Avg Bwd Segment Size": 0.09401274507963696,
+  "Flow IAT Std": 0.09387021016310933,
+  "ACK Flag Count": 0.03791297228414386,
+  "SYN Flag Count": 0.015644261769730605,
+  "Fwd PSH Flags": 0.011354764772530869,
+  "RST Flag Count": 1.0587096738532156e-11
+}

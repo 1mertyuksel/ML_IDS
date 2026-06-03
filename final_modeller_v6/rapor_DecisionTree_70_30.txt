@@ -1,0 +1,24 @@
+DecisionTree | 70_30
+Accuracy:0.9593  F1:0.9587  Prec:0.9586  Rec:0.9593
+
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.94      0.88      0.91      1500
+                       Bot       0.94      0.97      0.95       590
+                      DDoS       1.00      1.00      1.00      1500
+             DoS GoldenEye       0.98      0.99      0.99      1500
+                  DoS Hulk       0.97      0.98      0.97      1500
+          DoS Slowhttptest       0.99      0.99      0.99      1500
+             DoS slowloris       0.99      0.99      0.99      1500
+               FTP-Patator       0.99      1.00      1.00      1500
+                Heartbleed       1.00      1.00      1.00         3
+              Infiltration       0.75      0.55      0.63        11
+                  PortScan       1.00      1.00      1.00      1500
+               SSH-Patator       0.91      0.98      0.94      1500
+  Web Attack - Brute Force       0.72      0.65      0.68       452
+Web Attack - Sql Injection       0.67      0.67      0.67         6
+          Web Attack - XSS       0.42      0.41      0.41       196
+
+                  accuracy                           0.96     14758
+                 macro avg       0.88      0.87      0.88     14758
+              weighted avg       0.96      0.96      0.96     14758

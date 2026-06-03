@@ -1,0 +1,24 @@
+GradientBoosting | 70_30
+Accuracy:0.9605  F1:0.9572  Prec:0.957  Rec:0.9605
+
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.94      0.88      0.91      1500
+                       Bot       0.94      0.99      0.97       590
+                      DDoS       0.99      1.00      0.99      1500
+             DoS GoldenEye       0.99      0.99      0.99      1500
+                  DoS Hulk       0.96      0.98      0.97      1500
+          DoS Slowhttptest       0.99      0.99      0.99      1500
+             DoS slowloris       1.00      0.99      0.99      1500
+               FTP-Patator       1.00      1.00      1.00      1500
+                Heartbleed       1.00      1.00      1.00         3
+              Infiltration       0.08      0.09      0.08        11
+                  PortScan       1.00      1.00      1.00      1500
+               SSH-Patator       0.91      0.98      0.95      1500
+  Web Attack - Brute Force       0.68      0.81      0.74       452
+Web Attack - Sql Injection       0.00      0.00      0.00         6
+          Web Attack - XSS       0.40      0.11      0.18       196
+
+                  accuracy                           0.96     14758
+                 macro avg       0.79      0.79      0.78     14758
+              weighted avg       0.96      0.96      0.96     14758

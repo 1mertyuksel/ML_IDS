@@ -1,0 +1,24 @@
+MLP | 80_20
+Accuracy:0.9511  F1:0.9457  Prec:0.9524  Rec:0.9511
+
+                            precision    recall  f1-score   support
+
+                    BENIGN       0.93      0.80      0.86      1000
+                       Bot       0.89      0.94      0.91       393
+                      DDoS       0.99      1.00      0.99      1000
+             DoS GoldenEye       0.98      0.99      0.99      1000
+                  DoS Hulk       0.94      0.97      0.96      1000
+          DoS Slowhttptest       0.99      0.99      0.99      1000
+             DoS slowloris       0.99      0.98      0.99      1000
+               FTP-Patator       1.00      1.00      1.00      1000
+                Heartbleed       1.00      1.00      1.00         2
+              Infiltration       0.86      0.86      0.86         7
+                  PortScan       0.97      1.00      0.98      1000
+               SSH-Patator       0.90      0.98      0.94      1000
+  Web Attack - Brute Force       0.67      0.86      0.75       302
+Web Attack - Sql Injection       1.00      0.25      0.40         4
+          Web Attack - XSS       0.83      0.04      0.07       131
+
+                  accuracy                           0.95      9839
+                 macro avg       0.93      0.84      0.85      9839
+              weighted avg       0.95      0.95      0.95      9839
