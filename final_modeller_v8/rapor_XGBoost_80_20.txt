@@ -1,0 +1,15 @@
+XGBoost | 80_20
+Accuracy:0.9979  F1:0.9979  Prec:0.9979  Rec:0.9979
+
+                precision    recall  f1-score   support
+
+        BENIGN       1.00      1.00      1.00       664
+      DoS-DDoS       1.00      1.00      1.00       800
+   FTP-Patator       0.98      0.98      0.98       167
+      PortScan       1.00      1.00      1.00       800
+   SSH-Patator       0.93      0.96      0.94        53
+Web-BruteForce       1.00      1.00      1.00       800
+
+      accuracy                           1.00      3284
+     macro avg       0.98      0.99      0.99      3284
+  weighted avg       1.00      1.00      1.00      3284

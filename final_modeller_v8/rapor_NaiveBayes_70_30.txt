@@ -1,0 +1,15 @@
+NaiveBayes | 70_30
+Accuracy:0.9866  F1:0.9853  Prec:0.9863  Rec:0.9866
+
+                precision    recall  f1-score   support
+
+        BENIGN       1.00      0.99      1.00       995
+      DoS-DDoS       1.00      0.99      1.00      1200
+   FTP-Patator       0.85      0.98      0.91       251
+      PortScan       1.00      1.00      1.00      1200
+   SSH-Patator       0.81      0.44      0.57        80
+Web-BruteForce       0.99      1.00      0.99      1200
+
+      accuracy                           0.99      4926
+     macro avg       0.94      0.90      0.91      4926
+  weighted avg       0.99      0.99      0.99      4926

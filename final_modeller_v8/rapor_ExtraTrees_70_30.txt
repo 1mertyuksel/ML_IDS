@@ -1,0 +1,15 @@
+ExtraTrees | 70_30
+Accuracy:0.9984  F1:0.9984  Prec:0.9984  Rec:0.9984
+
+                precision    recall  f1-score   support
+
+        BENIGN       1.00      1.00      1.00       995
+      DoS-DDoS       1.00      1.00      1.00      1200
+   FTP-Patator       0.98      0.99      0.98       251
+      PortScan       1.00      1.00      1.00      1200
+   SSH-Patator       0.96      0.96      0.96        80
+Web-BruteForce       1.00      1.00      1.00      1200
+
+      accuracy                           1.00      4926
+     macro avg       0.99      0.99      0.99      4926
+  weighted avg       1.00      1.00      1.00      4926
